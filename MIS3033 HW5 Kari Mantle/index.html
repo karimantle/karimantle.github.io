@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>MIS3033 HW5 Kari Mantle</title>
+
+    <style>
+        #webpage
+        {
+            width: 1000px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        #header
+        {
+            display:flex;
+            flex-direction:row;
+            justify-content:end;
+            background-color:antiquewhite;
+            width:1000px;
+            height:50px;
+            align-items:center;
+        }
+        #body
+        {
+            display:flex;
+            flex-direction:row;
+            background-color:aliceblue;
+            height:300px;
+        }
+        #left
+        {
+            width:300px;
+        }
+        #center
+        {
+            width:400px;
+        }
+        #right 
+        {
+            width: 300px;
+            background-color: cornflowerblue;
+        }
+        #footer 
+        {
+            width: 1000px;
+            height: 50px;
+            line-height: 50px;
+            background-color:#073c76;
+            color: white;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+        }
+    </style>
+   
+</head>
+
+<body id="webpage">
+    <div id="header">
+
+        <div style="margin-right:5px;"> 
+            Kari Mantle
+        </div>
+
+        <div style="margin-right:5px;">
+            <img style="height:40px;border-radius:50%;" src="IMG/head2.png"/>
+        </div>
+
+        <div style="margin-right:5px;">
+            <button style="height:30px;">Logout</button>
+        </div>
+
+    </div>
+    
+    <div id="body">
+
+        <div id="left">
+            <img style="width:200px" src="IMG/book.jpg"/>
+            <br />
+            <span style="font-weight:bold;">C# 10 and .NET 6</span>
+        </div>
+        
+        <div id="center">
+           <span style="font-weight:bold;">$44.99</span>
+            <br />
+            Qty:
+            <input type="text" />
+            <br />
+            <button>Add</button>
+        </div>
+
+        <div id="right">
+            <span style="font-weight:bold;">Total cost: $89.99</span>
+        </div>
+
+    </div>
+    <div id="footer">
+        Developed by Kari Mantle for MIS3033 Homework
+    </div>
+
+</body>
+
+</html>
