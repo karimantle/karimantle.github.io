@@ -1,18 +1,187 @@
 <html>
 
 <head>
-    <title>[Exam code] Kari Mantle Exam 2 MIS3033</title>
+    <title>[WSIO] Kari Mantle Exam 2 MIS3033</title>
+
+    <style>
+        #webpage
+        {
+            width:800px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        #head
+        {
+            display:flex;
+            flex-direction:row;
+           
+        }
+        #footer 
+        {
+            height: 60px;
+            font-weight: bold;
+            font-size: 20px;
+            color: grey;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+        }
+        #body1 
+        {
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #body2 
+        {
+           margin-right:auto;
+           margin-left:auto;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+        }
+        #bodyleft
+        {
+            width:510px;
+        }
+        #up
+        {
+            height:110px;
+        }
+        #down
+        {
+            height:160px;
+        }
+        #bodyright
+        {
+            width:280px;
+            height:270px;
+        }
+        .borderstyle
+        {
+            border-style:solid;
+            border-width:1px;
+            border-color:lightgrey;
+            border-radius:5px;           
+        }
+        .title
+        {
+            text-transform:uppercase;
+            background-color:lightskyblue;
+            border-radius:5px;
+        }
+
+    </style>
 </head>
 
-<body>
-    <img src="static/head1.png" style="height:100px;" />
-    <img src="static/head2.png" style="height:100px;" />
-    <img src="static/linkedin.png" style="height:100px;" />
-    <img src="static/html.svg" style="height:100px;" />
-    <img src="static/css.svg" style="height:100px;" />
-    <img src="static/javascript.svg" style="height:100px;" />
-    <img src="static/sqlite.svg" style="height:100px;" />
-    <img src="static/logo.svg" style="height:100px;" />
+<body id="webpage">
+
+    <div id="head">
+        <div class="borderstyle" style="width: 200px; height: 70px; display: flex; flex-direction: column; justify-content: center; align-items: center">
+            <span style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+                MIS 3033 Exam 2
+            </span>
+            <span style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+                Kari Mantle
+            </span>
+        </div>
+
+
+
+        <div class="borderstyle" style="width:200px;height:70px; display:flex; flex-direction:column; justify-content:center; align-items:center">
+        WSIO
+        </div>
+    </div>
+
+
+    <div id="body1" class="borderstyle" style="display:flex;flex-direction:row;">
+
+        <div id="b1l">
+            <img src="static/head2.png" style="height:60px; border-radius:50%;" />
+        </div>
+
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+            <span>Kari Mantle<br /></span
+            <span>MIS Student</span>
+        </div>
+
+        <div>
+            <a target="_blank" href="https://www.linkedin.com">
+                <img src="static/linkedin.png" style="width:30px;" />
+            </a>
+        </div>
+
+    </div>
+
+
+    <div id="body2" style="display:flex; flex-direction:row;">
+
+        <div id="bodyleft">
+
+            <div class="borderstyle" id="up">
+                <span class="title">About Me:</span>
+                <br />
+                I am a MIS student. I like programming and I am good at C#. I leaned Entity Framework for Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC Dynamic Web App development and Web API development.
+            </div>
+
+            <div class="borderstyle" id="down" style="display:flex;flex-direction:column;">
+                <div>
+                    <span class="title">Achievements:</span>
+                </div>
+
+                <div style="display: flex; flex-direction: row; justify-content: center; align-items:center;">
+
+                    <div style="display:flex; flex-direction:column; align-items:center;" class="borderstyle">
+                        <img src="static/html.svg" style="height:100px;" />
+                        HTML
+                    </div>
+
+                    <div style="display:flex; flex-direction:column; align-items:center;" class="borderstyle">
+                        <img src="static/css.svg" style="height:100px;" />
+                        CSS
+                    </div>
+
+                    <div style="display:flex; flex-direction:column; align-items:center;" class="borderstyle">
+                        <img src="static/javascript.svg" style="height:100px;" />
+                        JavaScript
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id="bodyright" class="borderstyle">
+                <span class="title">Recent News:</span>
+                <br />
+                <br />
+                <span>
+                    <ul>
+                        <li>Learned C#</li>
+                        <li>Learned Entity Framework</li>
+                        <li>
+                            Learned
+
+                            <img src="static/sqlite.svg" style="height:40px;;" />
+                        </li>
+                    </ul>
+                </span>
+        </div>
+
+    </div>
+
+
+    <div id="footer" class="borderstyle">
+        Developed by Kari Mantle for MIS 3033 Exam 2
+        <div>
+            <img src="static/logo.svg" style="height:50px;" />
+        </div>
+    </div>
+    
 </body>
 
 </html>
